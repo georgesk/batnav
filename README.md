@@ -20,3 +20,9 @@ Ces améliorations ne se feront pas dans ce dépôt : le but de ce dépôt GIT e
 ## Licence : GPL V3
 
 **Notez bien** : la licence des sources ici présentes vous oblige à placer les dérivés sous licence GPL V3.
+
+## Mode d'emploi
+
+Il faut que Python3 et python3-cherrypy3 soient installés sur la machine locale.
+
+Quand on lance la commande ```python3 serveur.py``` un service web est créé, celui-ci répond à l'URL http://localhost:8080 par défaut. Selon les réglages du pare-feu, ce service est visible (ou non) des machines qui sont sur le même réseau local.
